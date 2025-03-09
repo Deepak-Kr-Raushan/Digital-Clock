@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    background-color: black;
+}
+
+.centre{
+    height: 150px;
+    width: 300px;
+    background-color: #212121;
+    border-radius: 30px;
+    box-shadow: inset 0 4px 20px rgb(255, 255, 255), inset 0 4px 20px rgb(176, 176, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.clock{
+    height: 40%;
+    width: 70%;
+    background-color: rgb(229, 96, 0);
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: center;
+    color: #e5e5e5;
+}
